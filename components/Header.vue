@@ -95,11 +95,15 @@ header {
     right: 40px;
     margin: auto;
     transition: .4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &:hover {
       background-color: darken($gray-200, 10%);
     }
     img {
       width: 100%;
+      border-radius: 50%;
     }
   }
   @include media-breakpoint-down(sm) {

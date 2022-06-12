@@ -76,7 +76,11 @@ export default {
     box-sizing: border-box;
     background-color: $gray-200;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     img {
+      border-radius: 50%;
       width: 100%;
     }
   }
